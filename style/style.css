@@ -2,7 +2,7 @@
 body {
     padding: 0;
     margin: 0;
-    width: 100%;
+    /* width: 100%; */
     font-family: 'Sniglet', cursive;
 }
 
@@ -15,7 +15,6 @@ header {
     display: flex;
     padding: 10px 100px;
     background-color: #5499DE;
-    width: 100%;
 }
 
 header div {
@@ -55,6 +54,7 @@ i.fa-moon {
 @media screen and (max-device-width: 480px) and (orientation: portrait) {
     header {
         padding: 10px 0px;
+        width: 100%;
     }
     button {
         padding: 10px;
