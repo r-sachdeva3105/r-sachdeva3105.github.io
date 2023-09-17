@@ -1,0 +1,45 @@
+div.exp {
+    position: relative;
+    float: right;
+    width: 800px;
+    margin-right: 90px;
+    margin-top: 50px;
+}
+
+h1.title {
+    font-size: 60px;
+    text-align: center;
+    color: #373738;
+}
+
+div.row {
+    display: flex;
+}
+
+img.coforge {
+    height: 60px;
+    position: relative;
+    top: 30%;
+}
+
+div.details {
+    margin: 0px 25px;
+}
+
+p.title {
+    font-size: 40px;
+}
+
+p.year {
+    font-size: 30px;
+}
+
+p.desc {
+    font-size: 20px;
+}
+
+img.mac {
+    position: fixed;
+    bottom: 0;
+    height: 500px;
+}

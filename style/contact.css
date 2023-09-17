@@ -1,0 +1,58 @@
+form {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+form>div {
+    margin: 25px;
+    display: grid;
+}
+
+label {
+    color: #373738;
+    font-size: 20px;
+    margin: 0 0 10px 10px;
+    font-family: 'Sniglet', cursive;
+}
+
+#name, #email, #message {
+    width: 400px;
+    border: none;
+    border-radius: 20px;
+	outline: none;
+    font-size: 20px;
+    color: #373738;
+    padding: 10px;
+	border: solid 3px #5499DE;
+    font-family: 'Sniglet', cursive;
+}
+
+#message {
+	height: 100px;	
+	resize: none; 
+	overflow: auto;
+}
+
+div.submit {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#submit {
+    width: 420px;
+    border: none;
+    border-radius: 20px;
+    background-color: #5499DE;
+    color: #ffffff;
+    padding: 12px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+img {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 500px;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet');
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Sniglet', cursive;
+}
+
+p {
+    margin: 10px;
+    color: #373738;
+}
+
+header {
+    display: flex;
+    padding: 10px 100px;
+    background-color: #5499DE;
+}
+
+header div {
+    justify-content: right;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+    padding: 20px;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+button>a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Sniglet', cursive;
+    &:hover {
+        color: #373738;
+    }
+}
+
+i.fa-moon {
+    font-size: 25px;
+    color: #ffffff;
+
+    &:hover {
+        color: #373738;
+    }
+}

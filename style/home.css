@@ -1,0 +1,74 @@
+div.intro {
+    position: absolute;
+    left: 15%;
+    top: 30%;
+}
+
+p.name {
+    font-size: 100px;
+    text-align: center;
+}
+
+p.title {
+    font-size: 50px;
+    text-align: center;
+}
+
+span.typed-text {
+    color: #5499DE;
+}
+
+span.cursor {
+    display: inline-block;
+    background-color: #373738;
+    width: 3px;
+    animation: blink 1s infinite;
+}
+
+span.cursor.typing {
+    animation: none;
+}
+
+@keyframes blink {
+    0% {
+        background-color: #373738;
+    }
+
+    49% {
+        background-color: #373738;
+    }
+
+    50% {
+        background-color: transparent;
+    }
+
+    99% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: #373738;
+    }
+}
+
+div.links {
+    display: flex;
+    justify-content: center;
+
+    .fa-brands {
+        padding: 10px;
+        color: #373738;
+        font-size: 50px;
+
+        &:hover {
+            color: #5499DE;
+        }
+    }
+}
+
+img {
+    position: fixed;
+    right: 4%;
+    bottom: 0;
+    height: 500px;
+}
