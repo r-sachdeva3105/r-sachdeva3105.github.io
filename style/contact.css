@@ -1,58 +1,123 @@
-form {
-    position: absolute;
-    top: 20%;
-    left: 20%;
+@media screen and (min-width: 1024px) {
+    form {
+        position: absolute;
+        top: 20%;
+        left: 20%;
+    }
+
+    form>div {
+        margin: 25px;
+        display: grid;
+    }
+
+    label {
+        color: #373738;
+        font-size: 20px;
+        margin: 0 0 10px 10px;
+    }
+
+    input,
+    textarea {
+        font-family: 'Sniglet', cursive;
+    }
+
+    #name,
+    #email,
+    #message {
+        width: 400px;
+        border: none;
+        border-radius: 20px;
+        outline: none;
+        font-size: 20px;
+        color: #373738;
+        padding: 10px;
+        border: solid 3px #5499DE;
+    }
+
+    #message {
+        height: 100px;
+        resize: none;
+        overflow: auto;
+    }
+
+    div.submit {
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    #submit {
+        width: 420px;
+        border: none;
+        border-radius: 20px;
+        background-color: #5499DE;
+        color: #ffffff;
+        padding: 12px 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    img {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        height: 500px;
+    }
 }
 
-form>div {
-    margin: 25px;
-    display: grid;
-}
+@media screen and (max-device-width: 480px) {
+    form>div {
+        margin: 20px 30px;
+        display: grid;
+    }
 
-label {
-    color: #373738;
-    font-size: 20px;
-    margin: 0 0 10px 10px;
-    font-family: 'Sniglet', cursive;
-}
+    label {
+        color: #373738;
+        font-size: 15px;
+        margin: 0 0 5px 5px;
+    }
 
-#name, #email, #message {
-    width: 400px;
-    border: none;
-    border-radius: 20px;
-	outline: none;
-    font-size: 20px;
-    color: #373738;
-    padding: 10px;
-	border: solid 3px #5499DE;
-    font-family: 'Sniglet', cursive;
-}
+    input,
+    textarea {
+        font-family: 'Sniglet', cursive;
+    }
 
-#message {
-	height: 100px;	
-	resize: none; 
-	overflow: auto;
-}
+    #name,
+    #email,
+    #message {
+        border: none;
+        border-radius: 20px;
+        font-size: 15px;
+        color: #373738;
+        padding: 5px 10px;
+        border: solid 3px #5499DE;
+    }
 
-div.submit {
-    justify-content: center;
-    margin-top: 30px;
-}
+    #message {
+        height: 80px;
+        resize: none;
+        overflow: auto;
+    }
 
-#submit {
-    width: 420px;
-    border: none;
-    border-radius: 20px;
-    background-color: #5499DE;
-    color: #ffffff;
-    padding: 12px 20px;
-    font-size: 20px;
-    cursor: pointer;
-}
+    div.submit {
+        justify-content: center;
+        margin-top: 30px;
+    }
 
-img {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    height: 500px;
+    #submit {
+        width: 100px;
+        border: none;
+        border-radius: 20px;
+        background-color: #5499DE;
+        color: #ffffff;
+        padding: 12px 20px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    img {
+        position: fixed;
+        bottom: 0;
+        left: 10%;
+        height: 300px;
+    }
 }

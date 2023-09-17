@@ -2,6 +2,7 @@
 body {
     padding: 0;
     margin: 0;
+    width: 100%;
     font-family: 'Sniglet', cursive;
 }
 
@@ -14,6 +15,7 @@ header {
     display: flex;
     padding: 10px 100px;
     background-color: #5499DE;
+    width: 100%;
 }
 
 header div {
@@ -47,5 +49,20 @@ i.fa-moon {
 
     &:hover {
         color: #373738;
+    }
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+    header {
+        padding: 10px 0px;
+    }
+    button {
+        padding: 10px;
+    }
+    button>a {
+        font-size: 20px;
+    }
+    i.fa-moon {
+        font-size: 20px;
     }
 }
