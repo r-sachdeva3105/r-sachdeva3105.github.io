@@ -1,0 +1,13 @@
+.about ._8 {
+    color: #0092ca;
+}
+
+@media screen and (min-width: 1024px) {
+    .about .left h1 {
+        font-size: 45px;
+    }
+
+    .about ._8 {
+        font-size: 50px;
+    }
+}

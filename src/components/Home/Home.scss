@@ -1,0 +1,43 @@
+._19 {
+    color: #0092ca;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    animation: fadeIn 1s 1.6s backwards;
+}
+
+.buttons a {
+    color: #0092ca;
+    transition: 1s;
+    text-decoration: none;
+    border: 1.5px solid #0092ca;
+    padding: 10px 18px;
+    margin-top: 18px;
+    letter-spacing: 4px;
+    font-weight: 500;
+
+    &:hover {
+        color: #eeeeee;
+        background-color: #0092ca;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .home .left h1 {
+        font-size: 60px;
+    }
+
+    ._19 {
+        font-size: 65px;
+    }
+
+    .home .left h4 {
+        font-size: 14px;
+    }
+
+    .buttons a {
+        font-size: 14px;
+    }
+}
