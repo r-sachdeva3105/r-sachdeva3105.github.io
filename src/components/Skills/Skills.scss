@@ -19,6 +19,9 @@
     .skills .left {
         width: 35%;
         position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .skills-p {

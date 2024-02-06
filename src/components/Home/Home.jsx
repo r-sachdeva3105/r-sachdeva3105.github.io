@@ -3,6 +3,7 @@ import './Home.scss'
 import { Link } from 'react-router-dom'
 import Animation from '../Animation/Animation'
 import Resume from '../../assets/RajatSachdevaResume.pdf'
+import Profile from '../../assets/images/profile.jpeg'
 import Loader from 'react-loaders'
 
 const Home = () => {
@@ -46,6 +47,9 @@ const Home = () => {
                         <Link className='btn' exact='true' to={Resume} target='_blank' rel='noopener noreferrer'>RESUME</Link>
                         <Link className='btn' exact='true' to='/contact'>CONTACT ME</Link>
                     </div>
+                </div>
+                <div className='right'>
+                    <img className='profileImage' src={Profile} alt='Display Profile' />
                 </div>
             </div>
             <Loader type='square-spin' />

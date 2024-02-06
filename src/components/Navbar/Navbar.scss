@@ -16,6 +16,7 @@
     cursor: pointer;
     transition: 0.4s;
     padding: 5px;
+
     &:hover {
         background-color: #0092ca;
     }
@@ -27,9 +28,11 @@ li.active {
 
 @media screen and (min-width: 1024px) {
     .navbar {
-        padding: 1% 10%;
+        padding: 0 10%;
+        height: 10vh;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .logo {

@@ -8,7 +8,7 @@ const Layout = () => {
         <div className='layout'>
             <Navbar />
             <div className='main'>
-                <span className='tag'>&lt;body&gt;</span>
+                <span className='tag tag-open'>&lt;body&gt;</span>
                 <Outlet />
                 <span className='tag tag-close'>&lt;/body&gt;</span>
             </div>
