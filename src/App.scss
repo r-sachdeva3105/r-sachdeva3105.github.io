@@ -20,6 +20,7 @@ $primary-color: #0092ca;
 
 .app {
     height: 100%;
+    font-family: 'Helvetica Neue', 'sans-serif';
 }
 
 .loader-hidden {
@@ -58,13 +59,6 @@ h1 {
 
 .left h1 {
     animation: fadeIn 1s 1.2s backwards;
-}
-
-.left h4 {
-    opacity: 0.6;
-    font-weight: normal;
-    letter-spacing: 4px;
-    animation: fadeIn 1s 1.4s backwards;
 }
 
 h1,

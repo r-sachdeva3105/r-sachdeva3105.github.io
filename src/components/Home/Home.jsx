@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom'
 import Animation from '../Animation/Animation'
 import Resume from '../../assets/RajatSachdevaResume.pdf'
 import Profile from '../../assets/images/profile.jpeg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Loader from 'react-loaders'
+import { faGithub, faHackerrank, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -46,6 +48,20 @@ const Home = () => {
                     <div className='buttons'>
                         <Link className='btn' exact='true' to={Resume} target='_blank' rel='noopener noreferrer'>RESUME</Link>
                         <Link className='btn' exact='true' to='/contact'>CONTACT ME</Link>
+                    </div>
+                    <div className='links'>
+                        <a href='https://www.linkedin.com/in/r-sachdeva3105/' target='_blank' rel='noreferrer'>
+                            <FontAwesomeIcon icon={faLinkedinIn}></FontAwesomeIcon>
+                        </a>
+                        <a href='https://github.com/r-sachdeva3105' target='_blank' rel='noreferrer'>
+                            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+                        </a>
+                        <a href='https://twitter.com/r_sachdeva3105' target='_blank' rel='noreferrer'>
+                            <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                        </a>
+                        <a href='https://www.hackerrank.com/profile/r_sachdeva3105' target='_blank' rel='noreferrer'>
+                            <FontAwesomeIcon icon={faHackerrank}></FontAwesomeIcon>
+                        </a>
                     </div>
                 </div>
                 <div className='right'>

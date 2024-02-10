@@ -2,10 +2,18 @@
     color: #0092ca;
 }
 
-.buttons {
+.left h4 {
+    opacity: 0.6;
+    font-weight: normal;
+    letter-spacing: 4px;
+    animation: fadeIn 1s 1.4s backwards;
+}
+
+.buttons,
+.links {
     display: flex;
     gap: 10px;
-    margin: 18px 0;
+    margin: 15px 0;
     animation: fadeIn 1s 1.6s backwards;
 }
 
@@ -24,6 +32,15 @@
     }
 }
 
+.links a {
+    color: #eeeeee;
+
+    &:hover {
+        color: #0092ca;
+        animation: rubberBand 1s;
+    }
+}
+
 .home .right {
     display: flex;
     justify-content: center;
@@ -32,14 +49,14 @@
 
 .profileImage {
     width: 60%;
-    border: 2px solid #393e46;
+    border: 3px solid #393e46;
     border-radius: 25px;
     animation: fadeIn 2s 2s backwards;
 }
 
 @media screen and (min-width: 1024px) {
     .home .left h1 {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     ._19 {
@@ -52,5 +69,14 @@
 
     .buttons a {
         font-size: 14px;
+    }
+
+    .links {
+        gap: 30px;
+        margin: 0 30px;
+    }
+
+    .links a {
+        font-size: 40px;
     }
 }

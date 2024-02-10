@@ -67,7 +67,7 @@ const Skills = () => {
                 </div>
                 <div className='right'>
                     <div className='canvasContainer'>
-                        <canvas id='myCanvas' width='900' height='600'>
+                        <canvas id='myCanvas' width='750' height='500'>
                             <div id='taglist'>
                                 <ul>
                                     {skills.map((skill) => (
