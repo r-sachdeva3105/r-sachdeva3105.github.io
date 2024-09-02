@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ec2e06d.css",
-    "main.js": "/static/js/main.d0703ea2.js",
+    "main.css": "/static/css/main.0f0d4a41.css",
+    "main.js": "/static/js/main.07650c7d.js",
     "static/media/profile.jpeg": "/static/media/profile.75cc87c2b8547c8fc84d.jpeg",
     "static/media/RajatSachdevaResume.pdf": "/static/media/RajatSachdevaResume.858253b9b59b2495e182.pdf",
     "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.2ec2e06d.css.map": "/static/css/main.2ec2e06d.css.map",
-    "main.d0703ea2.js.map": "/static/js/main.d0703ea2.js.map"
+    "main.0f0d4a41.css.map": "/static/css/main.0f0d4a41.css.map",
+    "main.07650c7d.js.map": "/static/js/main.07650c7d.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ec2e06d.css",
-    "static/js/main.d0703ea2.js"
+    "static/css/main.0f0d4a41.css",
+    "static/js/main.07650c7d.js"
   ]
 }
